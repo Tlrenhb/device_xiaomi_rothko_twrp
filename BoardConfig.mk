@@ -39,7 +39,7 @@ BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := rothko
 
 # Kernel - prebuilt
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/
+TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144
