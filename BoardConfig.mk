@@ -1,4 +1,4 @@
-&DEVICE_PATH := device/xiaomi/rothko
+DEVICE_PATH := device/xiaomi/rothko
 
 # Architecture
 TARGET_ARCH := arm64
@@ -42,7 +42,7 @@ TARGET_NO_KERNEL := true
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 # Kernel - prebuilt
-TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb
+TARGET_PREBUILT_DTB := prebuilt/dtb
 
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 262144
